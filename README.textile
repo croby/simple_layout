@@ -1,3 +1,21 @@
+h2. Install:
+
+bq. gem install simple_layout
+
+h2. Usage:
+
+In your Rails app:
+
+bq. ./script/generate simple_layout xhtml-strict
+
+That will create 
+
+bc. app/views/templates/application.html.erb
+public/stylesheets/application.css
+public/stylesheets/reset.css
+
+  
+
 h2. LICENSE:
 
 (The MIT License)
