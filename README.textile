@@ -1,18 +1,27 @@
+h1. What this is:
+
+A gem to install a series of generators for a layout, so you never have to type a doctype or reset your css ever again.
+
+reset.css is a combination of base.css, fonts.css, and reset.css from the YUI (see "http://developer.yahoo.com/yui/reset/":http://developer.yahoo.com/yui/reset/ for reference). I did not create those, but am very thankful to Yahoo! for doing so.
+
+For now, we just have a 960px wide xhtml-strict layout. More will be added as I add them in.
+
 h2. Install:
 
-bq. gem install simple_layout
+bc. gem install simple_layout
 
 h2. Usage:
 
 In your Rails app:
 
-bq. ./script/generate simple_layout xhtml-strict
+bc. ./script/generate simple_layout xhtml-strict
 
-That will create 
+That will create a 960px wide XHTML-valid layout, using the following files:
 
 bc. app/views/templates/application.html.erb
 public/stylesheets/application.css
 public/stylesheets/reset.css
+
 
   
 
