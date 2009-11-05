@@ -5,8 +5,8 @@ class SimpleLayoutGenerator < Rails::Generator::NamedBase
       m.directory 'public/stylesheets'
       
       if (@name.eql?("xhtml-strict"))
-        m.template     "application.html.erb", "app/views/layouts/application.html.erb"
-        m.file     "application.css",  "public/stylesheets/application.css"
+        m.template "xhtml/strict/application.html.erb", "app/views/layouts/application.html.erb"
+        m.file     "xhtml/strict/application.css",  "public/stylesheets/application.css"
         m.file     "reset.css",  "public/stylesheets/reset.css"      
       end
     end
