@@ -16,11 +16,11 @@ Gem::Specification.new do |s|
     "README.textile"
   ]
   s.files = [
-    "README.textile",
+    ".gitignore",
+     "README.textile",
      "Rakefile",
      "VERSION",
      "lib/simple_layout.rb",
-     "pkg/simple_layout-0.1.0.gem",
      "rails_generators/simple_layout/simple_layout_generator.rb",
      "rails_generators/simple_layout/templates/reset.css",
      "rails_generators/simple_layout/templates/xhtml/strict/application.css",
