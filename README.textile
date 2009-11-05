@@ -8,6 +8,13 @@ For now, we just have a 960px wide xhtml-strict layout. More will be added as I 
 
 h2. Install:
 
+If you don't already have gemcutter set up, do so:
+
+bc. gem install gemcutter
+gem tumble
+
+then, you can
+
 bc. gem install simple_layout
 
 h2. Usage:
