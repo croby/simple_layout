@@ -1,0 +1,10 @@
+/** Begin Main Layout **/
+html{height:100%;}
+body{width:100%;height:100%;background-color:#fff;color:#000;min-width:960px;}
+div#container{position:relative;min-height:100%;text-align:left;top:0px;left:0px;width:100%;min-width:960px;}
+* html div#container{height:100%;}
+div#content{position:relative;float:left;width:960px;min-width:960px;padding-bottom:340px;left:50%;margin-left:-480px;display:inline;clear:both;}
+div#header{position:relative;width:100%;height:42px;padding-top:12px;margin-bottom:20px;}
+div#main{position:relative;width:960px;left:50%;margin-left:-480px;}
+div#footer_container{position:relative;float:left;width:100%;height:100px;margin-top:-100px;}
+div#footer{position:relative;width:960px;height:100px;left:50%;margin-left:-480px;top:100px;}
