@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{simple_layout}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Chris Roby"]
@@ -20,10 +20,12 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/simple_layout.rb",
+     "pkg/simple_layout-0.1.0.gem",
      "rails_generators/simple_layout/simple_layout_generator.rb",
-     "rails_generators/simple_layout/templates/application.css",
-     "rails_generators/simple_layout/templates/application.html.erb",
-     "rails_generators/simple_layout/templates/reset.css"
+     "rails_generators/simple_layout/templates/reset.css",
+     "rails_generators/simple_layout/templates/xhtml/strict/application.css",
+     "rails_generators/simple_layout/templates/xhtml/strict/application.html.erb",
+     "simple_layout.gemspec"
   ]
   s.homepage = %q{http://github.com/croby/simple_layout}
   s.rdoc_options = ["--charset=UTF-8"]
