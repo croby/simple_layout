@@ -67,8 +67,6 @@ version:2.8.0r4
 * @namespace yui-
 * @requires reset,fonts
 */
-body{/* For breathing room between content and viewport. */
-margin:10px;}
 h1{/* 18px via YUI Fonts CSS foundation. */
 font-size:138.5%;}
 h2{/* 16px via YUI Fonts CSS foundation. */
